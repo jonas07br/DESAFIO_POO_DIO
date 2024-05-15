@@ -82,4 +82,9 @@ public class Dev {
             return false;
         return true;
     }
+    @Override
+    public String toString() {
+        return "Dev [nome=" + nome + ", conteudosInscritos=" + conteudosInscritos + ", conteudosConcluidos="
+                + conteudosConcluidos + "]";
+    }
 }
