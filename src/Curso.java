@@ -19,7 +19,7 @@ public class Curso extends Conteudo {
     }
 
     public String toString() {
-        return "Curso: " + this.getTitulo() + "; cargaHoraria:" + cargaHoraria + "; descricao:" + this.getDescricao()+ ".";
+        return "Curso: " + this.getTitulo() + "; cargaHoraria:" + cargaHoraria + "; descricao:" + this.getDescricao()+ ".\n";
     }
 
     @Override
