@@ -25,6 +25,8 @@ public class Main {
         jonas.progredir();
         bootcampJava.setDevsInscritos(jonas);
         System.out.println(bootcampJava.getDevsInscritos());
-
+        System.out.println(jonas.calcularTotalXp());
+        jonas.progredir();
+        System.out.println(jonas.calcularTotalXp());
     }
 }
